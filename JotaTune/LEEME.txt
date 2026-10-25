@@ -1,0 +1,19 @@
+JOTATUNE - Autotune robotico (VST3) para FL Studio
+===================================================
+Perillas: ROBOT (que tan robotico) y TONO (afina/mueve la voz en semitonos).
+
+COMO OBTENER EL PLUGIN SIN INSTALAR C++ (compila GitHub gratis en la nube)
+1. Crea una cuenta gratis en https://github.com
+2. Crea un repositorio nuevo (boton "New"), nombre: JotaTune
+3. Sube TODO el contenido de esta carpeta (incluida la carpeta oculta .github).
+   Tip: en la pagina del repo, "Add file > Upload files" y arrastra todo,
+   incluyendo .github/workflows/build.yml (si no te deja arrastrar carpetas
+   ocultas, usa "Create new file" y escribe el nombre
+   .github/workflows/build.yml, pegando su contenido).
+4. Ve a la pestana "Actions". Se compila solo (tarda ~10 a 15 min).
+5. Cuando salga la palomita verde, entra al trabajo y baja "JotaTune-VST3"
+   (es un zip que contiene JotaTune.vst3).
+6. Copia JotaTune.vst3 a: C:\Program Files\Common Files\VST3\
+7. En FL Studio: Options > Manage plugins > Find installed plugins.
+
+USO: ponlo en un insert del mixer con tu voz limpia. ROBOT al maximo = efecto T-Pain.
